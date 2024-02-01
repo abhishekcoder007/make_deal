@@ -32,22 +32,7 @@ let navcolor=props?.navcolor || "light"
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                  <Link className="text-decoration-none" to="/" ><Nav.Link href="#action1">Home</Nav.Link></Link>
-                 <Link className="text-decoration-none" to="/product" ><Nav.Link href="#action1">Product</Nav.Link></Link>
-                 <Link className="text-decoration-none"  to="/edit" ><Nav.Link href="#action1">Edit</Nav.Link></Link>
-                 <Link className="text-decoration-none"  to="/cart" ><Nav.Link href="#action1">Cart</Nav.Link></Link>
-                  <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                 <Link className="text-decoration-none" to="/deal" ><Nav.Link href="#action1">Deal</Nav.Link></Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

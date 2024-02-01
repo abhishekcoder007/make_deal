@@ -195,9 +195,9 @@ const handleImageChoose=(e)=>{
         <Button variant="primary" onClick={handleShow}>
           Add Product
         </Button>
-        <button type="button" onClick={handleMove} className="btn btn-primary">
+        {/* <button type="button" onClick={handleMove} className="btn btn-primary">
           Edit Product
-        </button>
+        </button> */}
       </Navbar>
         {/* {JSON.stringify(Err)} */}
       <Modal show={show} onHide={handleClose}>

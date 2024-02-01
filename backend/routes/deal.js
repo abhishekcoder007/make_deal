@@ -20,7 +20,9 @@ const storage = multer.diskStorage({
 
 
 router.post('/add', upload.array('Images'),handleError,dealcontroller.addDeal )
+
 router.get('/data' ,dealcontroller.allData );
+
 router.post('/gimage' ,dealcontroller.allImages );
 
 module.exports={router}

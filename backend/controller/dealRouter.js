@@ -53,6 +53,7 @@ const allImages=async(req,res)=>{
         }
 
     }catch(err){
+        res.send("name shold be of length greater than one")
          console.log(err);
     }
 }
